@@ -1,0 +1,155 @@
+:root {
+  --primary-color: #28a745;
+  --primary-darker: #1a7332;
+  --secondary-color: lightblue;
+  --dark-color: #161829;
+}
+
+/* Text-Sizes */
+.xl {
+  font-size: 1.8rem;
+}
+.lg {
+  font-size: 1.6rem;
+}
+.md {
+  font-size: 1.4rem;
+}
+.sm {
+  font-size: 1.2rem;
+}
+
+/* Text Colors */
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.text-dark {
+  color: #333;
+}
+.text-light {
+  color: #fff;
+}
+
+/* Text Templates */
+.text-area {
+  text-align: left;
+  background-color: var(--primary-darker);
+  color: white;
+  padding: 60px 25px 35px 25px;
+  position: relative;
+  text-align: left;
+}
+.text-area h3 {
+  margin-left: 20px;
+  font-size: 40px;
+  font-weight: 400;
+}
+.text-area p {
+  margin-bottom: 40px;
+}
+
+/* Buttons */
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 8px 12px;
+  border: 1px solid #333;
+  border-radius: 5px;
+}
+.btn:hover {
+  border-color: wheat;
+  background-color: var(--primary-darker);
+}
+.btn-light {
+  background-color: #a7edfc;
+  color: #333;
+  font-weight: 400;
+  border: 1px solid snow;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: ease-in 0.2s;
+}
+.btn-light:hover {
+  border: 1px solid grey;
+  background-color: #6ef5f3;
+}
+
+.section-padding {
+  padding: 20px;
+}
+/* Different Backgrounds */
+.bg-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+.bg-prime-dark {
+  background-color: var(--primary-darker);
+  color: white;
+}
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: #333;
+}
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+.bg-light {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Basic FlexBox */
+
+.flexrow {
+  display: flex;
+}
+.flexrow-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.flexcolumn-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+/* CSS ARROWS */
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-left: 60px solid green;
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+
+  border-right: 60px solid blue;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+
+  border-bottom: 60px solid black;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+
+  border-top: 60px solid #f00;
+}
